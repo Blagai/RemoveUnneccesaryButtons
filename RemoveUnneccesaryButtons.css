@@ -1,0 +1,80 @@
+/**
+ * @name RemoveUnnecessaryButtons
+ * @author Blagai
+ * @description Removes all buttons I deem unnecessary from Discord.
+ * @source TBD
+ * @version 1.0
+ */
+
+/* Context menu buttons */
+#user-context-invite-to-server {
+	display: none;
+}
+#user-context-ignore {
+  display: none;
+}
+#user-context-apps {
+  display: none;
+}
+
+#message-mark-unread {
+  display: none;
+}
+
+#message-tts {
+  display: none;
+}
+
+#message-apps {
+  display: none;
+}
+
+
+/* Text input buttons */
+button[aria-label="Send a gift"] {
+  display: none;
+}
+button[aria-label="Apps"] {
+  display: none;
+}
+button[aria-label="Open sticker picker"] {
+  display: none;
+}
+#channel-attach-SLASH_COMMAND {
+  display: none;
+}
+
+/* Nitro, Shop, and Library */
+li.channel__972a0[aria-posinset="3"][aria-setsize="28"] {
+  display: none;
+}
+li.channel__972a0[aria-posinset="2"][aria-setsize="28"] {
+  display: none;
+}
+li.channel__972a0 a[href="/shop"] {
+  display: none;
+}
+
+/* Top bar buttons */
+.recentsIcon_c99c29 {
+  display: none !important;
+}
+
+a.anchor_edefb8[href*="support.discord.com"] > .button__85643[aria-label="Help"] {
+  display: none !important;
+}
+
+.iconWrapper__9293f[aria-label="Start Video Call"] {
+  display: none !important;
+}
+
+/* Snap searchbar to right */
+.searchBar__97492 {
+  margin-right: 0px !important;
+}
+
+/* Win buttons fix */
+.winButtons_c38106 {
+  bottom: 21px !important;
+  left: -80px !important;
+}
