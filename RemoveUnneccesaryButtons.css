@@ -78,3 +78,15 @@ a.anchor_edefb8[href*="support.discord.com"] > .button__85643[aria-label="Help"]
   bottom: 21px !important;
   left: -80px !important;
 }
+
+/* Remove the "Turn On Camera" button */
+.attachedCaretButtonContainer_f1ceac:has(button[aria-label="Turn On Camera"]) 
+{
+  div[aria-label="More Options"] {
+    display: none !important;
+  }
+}
+
+button[aria-label="Turn On Camera"] {
+  display: none !important;
+}
