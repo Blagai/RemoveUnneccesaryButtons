@@ -45,15 +45,14 @@ button[aria-label="Open sticker picker"] {
 }
 
 /* Nitro, Shop, and Library */
-li.channel__972a0[aria-posinset="3"][aria-setsize="28"] {
-  display: none;
-}
-li.channel__972a0[aria-posinset="2"][aria-setsize="28"] {
+li.channel__972a0[aria-posinset="2"] { /* Library */
   display: none;
 }
 li.channel__972a0 a[href="/shop"] {
   display: none;
 }
+/* Remove Quests and Nitro */
+
 
 /* Top bar buttons */
 .recentsIcon_c99c29 {
@@ -71,12 +70,6 @@ a.anchor_edefb8[href*="support.discord.com"] > .button__85643[aria-label="Help"]
 /* Snap searchbar to right */
 .searchBar__97492 {
   margin-right: 0px !important;
-}
-
-/* Win buttons fix */
-.winButtons_c38106 {
-  bottom: 21px !important;
-  left: -80px !important;
 }
 
 /* Remove the "Turn On Camera" button */
