@@ -44,15 +44,19 @@ button[aria-label="Open sticker picker"] {
   display: none;
 }
 
-/* Nitro, Shop, and Library */
+/* Nitro, Shop, Library, and Quests */
 li.channel__972a0[aria-posinset="2"] { /* Library */
   display: none;
 }
-li.channel__972a0 a[href="/shop"] {
+li.channel__972a0:has(a[href="/shop"]) { /* Shop */
   display: none;
 }
-/* Remove Quests and Nitro */
-
+div [aria-posinset="3"]:has(li.channel__972a0) { /* Nitro */
+  display: none;
+}
+div [class="wrapper__553bf"] { /* Quests */
+  display: none;
+}
 
 /* Top bar buttons */
 .recentsIcon_c99c29 {
@@ -67,10 +71,15 @@ a.anchor_edefb8[href*="support.discord.com"] > .button__85643[aria-label="Help"]
   display: none !important;
 }
 
-/* Snap searchbar to right */
-.searchBar__97492 {
-  margin-right: 0px !important;
+/* Top right buttons */
+div[class="trailing_c38106"] {
+  display: none !important;
 }
+
+/* Snap searchbar to right */
+  .toolbar__9293f.toolbar__9293f {
+    margin-right: 0px !important;
+  }
 
 /* Remove the "Turn On Camera" button */
 .attachedCaretButtonContainer_f1ceac:has(button[aria-label="Turn On Camera"]) 
