@@ -31,16 +31,16 @@
 
 
 /* Text input buttons */
-button[aria-label="Send a gift"] {
+div[class="expression-picker-chat-input-button buttonContainer__74017"]:has(div[aria-label="Open sticker picker"]) {
   display: none;
 }
-button[aria-label="Apps"] {
+div[class="button__74017 button__24af7"][aria-label="Send a gift"] {
   display: none;
 }
-button[aria-label="Open sticker picker"] {
+div[class="buttonContainer_e6e74f app-launcher-entrypoint"] {
   display: none;
 }
-#channel-attach-SLASH_COMMAND {
+div[id="channel-attach-SLASH_COMMAND"] {
   display: none;
 }
 
