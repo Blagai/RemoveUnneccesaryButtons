@@ -8,7 +8,7 @@
 
 /* Context menu buttons */
 #user-context-invite-to-server {
-	display: none;
+  display: none;
 }
 #user-context-ignore {
   display: none;
@@ -60,7 +60,7 @@ div [class="wrapper__553bf"] { /* Quests */
 
 /* Top bar buttons */
 .recentsIcon_c99c29 {
-  display: none !important;
+  display: none !important; /* BUG no window buttons because of this */
 }
 
 a.anchor_edefb8[href*="support.discord.com"] > .button__85643[aria-label="Help"] {
@@ -77,9 +77,9 @@ div[class="trailing_c38106"] {
 }
 
 /* Snap searchbar to right */
-  .toolbar__9293f.toolbar__9293f {
-    margin-right: 0px !important;
-  }
+.toolbar__9293f.toolbar__9293f {
+  margin-right: 0px !important;
+}
 
 /* Remove the "Turn On Camera" button */
 .attachedCaretButtonContainer_f1ceac:has(button[aria-label="Turn On Camera"]) 
