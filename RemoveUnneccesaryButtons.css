@@ -8,25 +8,25 @@
 
 /* Context menu buttons */
 #user-context-invite-to-server {
-	display: none;
+display: none;
 }
 #user-context-ignore {
-  display: none;
+display: none;
 }
 #user-context-apps {
-  display: none;
+display: none;
 }
 
 #message-mark-unread {
-  display: none;
+display: none;
 }
 
 #message-tts {
-  display: none;
+display: none;
 }
 
 #message-apps {
-  display: none;
+display: none;
 }
 
 
@@ -72,17 +72,17 @@ a.anchor_edefb8[href*="support.discord.com"] > .button__85643[aria-label="Help"]
 }
 
 /* Top right buttons */
-div[class="trailing_c38106"] {
+div[class="trailing_c38106"] { /* BUG Removes window control buttons
   display: none !important;
 }
 
 /* Snap searchbar to right */
-  .toolbar__9293f.toolbar__9293f {
-    margin-right: 0px !important;
-  }
+.toolbar__9293f.toolbar__9293f {
+  margin-right: 0px !important;
+}
 
 /* Remove the "Turn On Camera" button */
-.attachedCaretButtonContainer_f1ceac:has(button[aria-label="Turn On Camera"]) 
+.attachedCaretButtonContainer_f1ceac:has(button[aria-label="Turn On Camera"])
 {
   div[aria-label="More Options"] {
     display: none !important;
