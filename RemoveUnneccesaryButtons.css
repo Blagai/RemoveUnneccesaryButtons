@@ -8,27 +8,26 @@
 
 /* Context menu buttons */
 #user-context-invite-to-server {
-  display: none;
+display: none;
 }
 #user-context-ignore {
-  display: none;
+display: none;
 }
 #user-context-apps {
-  display: none;
+display: none;
 }
 
 #message-mark-unread {
-  display: none;
+display: none;
 }
 
 #message-tts {
-  display: none;
+display: none;
 }
 
 #message-apps {
-  display: none;
+display: none;
 }
-
 
 /* Text input buttons */
 div[class="expression-picker-chat-input-button buttonContainer__74017"]:has(div[aria-label="Open sticker picker"]) {
@@ -60,7 +59,7 @@ div [class="wrapper__553bf"] { /* Quests */
 
 /* Top bar buttons */
 .recentsIcon_c99c29 {
-  display: none !important; /* BUG no window buttons because of this */
+  display: none !important;
 }
 
 a.anchor_edefb8[href*="support.discord.com"] > .button__85643[aria-label="Help"] {
@@ -72,8 +71,13 @@ a.anchor_edefb8[href*="support.discord.com"] > .button__85643[aria-label="Help"]
 }
 
 /* Top right buttons */
-div[class="trailing_c38106"] {
+.clickable__81391 {
   display: none !important;
+}
+
+/* Fix windows buttons position */
+.winButtons_c38106 {
+  bottom: 23px;
 }
 
 /* Snap searchbar to right */
@@ -82,7 +86,7 @@ div[class="trailing_c38106"] {
 }
 
 /* Remove the "Turn On Camera" button */
-.attachedCaretButtonContainer_f1ceac:has(button[aria-label="Turn On Camera"]) 
+.attachedCaretButtonContainer_f1ceac:has(button[aria-label="Turn On Camera"])
 {
   div[aria-label="More Options"] {
     display: none !important;
